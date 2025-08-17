@@ -21,7 +21,7 @@ import { Button } from './ui/button';
 import { PlusCircle } from 'lucide-react';
 import { format } from 'date-fns';
 
-type TransactionsTableProps = {
+export type TransactionsTableProps = {
   transactions: Transaction[];
   setTransactions: Dispatch<SetStateAction<Transaction[]>>;
 };
